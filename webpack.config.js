@@ -64,11 +64,11 @@ module.exports = {
         }),
         new UglifyJsPlugin(),
         new HTMLWebpackPlugin({
-            title: "Default",
+            title: "Köli Capital",
             author: "Visual Works",
-            description: "Description",
-            url: "https://www.visualworks.com.br",
-            image: "https://www.visualworks.com.br/img/logo-visualworks.jpg",
+            description: "Köli Capital",
+            url: "https://www.kolicapital.com",
+            image: "https://www.kolicapital.com/img/logo-koli-capital.png",
             filename: path.resolve(__dirname, "dist/index.html"),
             template: path.resolve(__dirname, "src/index.html")
         }),

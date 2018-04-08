@@ -1,7 +1,7 @@
 {
-  "name": "skeleton.com.br",
+  "name": "kolicapital.com",
   "version": "1.0.0",
-  "description": "Default template for ReactJS, Bulma and FontAwesome, using webpack and babel.",
+  "description": "Köli Capital",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.js --content-base dist/ --watch --progress --colors",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/visualworks/skeleton.git"
+    "url": "git+https://github.com/visualworks/kolicapital.com.git"
   },
   "author": "Visual Works",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/visualworks/skeleton/issues"
+    "url": "https://github.com/visualworks/kolicapital.com/issues"
   },
-  "homepage": "https://github.com/visualworks/skeleton#readme",
+  "homepage": "https://github.com/visualworks/kolicapital.com#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",

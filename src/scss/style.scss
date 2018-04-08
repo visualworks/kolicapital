@@ -1,6 +1,12 @@
 $fa-font-path: "//netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts";
 // $fa-font-path: "~/fonts/";
 @import "node_modules/font-awesome/scss/font-awesome";
-
+$primary: #464646;
 @import "node_modules/bulma/bulma";
-@import "//use.typekit.net/szp4rig.css";
+
+h1.title {
+    font-family: "chaparral-pro", sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    color: $primary;
+}

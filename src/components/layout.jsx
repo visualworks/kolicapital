@@ -6,9 +6,38 @@ export default class Layout extends App {
         return (
             <section className="hero is-fullheight">
                 <div className="hero-body">
-                    <div className="container has-text-centered">
-                        <h1 className="title">Hello World!</h1>
-                        <h2 className="subtitle">Sample Application <span className="icon"><i className="fa fa-comment"></i></span></h2>
+                    <div className="container">
+                        <div className="columns">
+                            <div className="column is-two-thirds has-text-centered">
+                                <h1 className="title tk-chaparral-pro">Köli Capital</h1>
+                            </div>
+                            <div className="column has-text-right">
+                                <div className="field">
+                                    <p class="control has-icons-left has-icons-right">
+                                        <input className="input" type="email" placeholder="Email" />
+                                        <span className="icon is-small is-left">
+                                            <i className="fa fa-envelope"></i>
+                                        </span>
+                                        <span className="icon is-small is-right">
+                                            <i className="fa fa-check"></i>
+                                        </span>
+                                    </p>
+                                </div>
+                                <div className="field">
+                                    <p className="control has-icons-left">
+                                        <input className="input" type="password" placeholder="Password" />
+                                        <span className="icon is-small is-left">
+                                            <i className="fa fa-lock"></i>
+                                        </span>
+                                    </p>
+                                </div>
+                                <div className="field is-grouped-right">
+                                    <p className="control">
+                                        <button className="button is-primary">Login</button>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
