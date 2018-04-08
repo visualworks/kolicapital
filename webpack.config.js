@@ -55,11 +55,11 @@ module.exports = {
     },
     target: "web",
     stats: "detailed",
-    mode: "development",
+    mode: "production",
     plugins: [
         new webpack.DefinePlugin({
             "process.env": {
-                "NODE_ENV": JSON.stringify("development")
+                "NODE_ENV": JSON.stringify("production")
             }
         }),
         new UglifyJsPlugin(),

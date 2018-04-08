@@ -13,13 +13,10 @@ export default class Layout extends App {
                             </div>
                             <div className="column has-text-right">
                                 <div className="field">
-                                    <p class="control has-icons-left has-icons-right">
+                                    <p className="control has-icons-left">
                                         <input className="input" type="email" placeholder="Email" />
                                         <span className="icon is-small is-left">
                                             <i className="fa fa-envelope"></i>
-                                        </span>
-                                        <span className="icon is-small is-right">
-                                            <i className="fa fa-check"></i>
                                         </span>
                                     </p>
                                 </div>
