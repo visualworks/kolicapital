@@ -1,0 +1,41 @@
+.hero-head {
+    background-color: #10253f;
+}
+
+.hero-head hr {
+    margin-top: 10rem;
+}
+
+h1.title.is-1 {
+    color: #10253f;
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+a {
+    color: #10253f;
+}
+
+h1.title.is-1 {
+    color: #10253f;
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+footer.footer-index {
+    bottom: 0;
+    min-width: 100vw;
+    max-width: 100vw;
+    position: absolute;
+}
+
+.logo-anbima {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-anbima > img {
+    min-width: 128px;
+    width: 128px;
+    max-width: 128px;
+}
